@@ -1,19 +1,18 @@
 {
-    "name": "luketowers/oc-flashalertnet-plugin",
-    "type": "october-plugin",
-    "description": "OctoberCMS plugin to pull data from FlashAlert.net",
-    "homepage": "https://github.com/LukeTowers/oc-flashalertnet-plugin",
-    "keywords": ["october", "octobercms", "rss", "flashalert", "flash", "alert"],
+    "name": "luketowers/wn-flashalertnet-plugin",
+    "type": "winter-plugin",
+    "description": "WinterCMS plugin to pull data from FlashAlert.net",
+    "homepage": "https://github.com/LukeTowers/wn-flashalertnet-plugin",
+    "keywords": ["winter", "wintercms", "rss", "flashalert", "flash", "alert"],
     "license": "MIT",
     "authors": [
         {
             "name": "Luke Towers",
-            "email": "octobercms@luketowers.ca"
+            "email": "wintercms@luketowers.ca"
         }
     ],
     "require": {
-        "composer/installers": "~1.0",
-
+        "composer/installers": "~1.11",
         "dg/rss-php": "~1.3"
     }
 }
