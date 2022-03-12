@@ -1,0 +1,25 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    title:
+        label: Title
+        span: left
+    guid:
+        label: GUID
+        span: right
+        disabled: true
+    content:
+        label: Content
+        span: full
+        type: richeditor
+    published_at:
+        label: Published at
+        span: left
+        type: datepicker
+    featured_image:
+        label: Image
+        span: right
+        type: fileupload
+        mode: image

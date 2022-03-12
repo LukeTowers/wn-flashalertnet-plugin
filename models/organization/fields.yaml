@@ -1,0 +1,14 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Name
+        span: left
+        placeholder: Timbuktu Fire Department
+    api_org_id:
+        label: FlashAlert Organization ID
+        span: right
+        type: number
+        placeholder: 1234

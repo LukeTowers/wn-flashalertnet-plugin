@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Organization
+
+# Model Form Field configuration
+form: $/luketowers/flashalertnet/models/organization/fields.yaml
+
+# Model Class name
+modelClass: LukeTowers\FlashAlertNet\Models\Organization
+
+# Default redirect location
+defaultRedirect: luketowers/flashalertnet/organizations
+
+# Create page
+create:
+    title: Create Organization
+    redirect: luketowers/flashalertnet/organizations/update/:id
+    redirectClose: luketowers/flashalertnet/organizations
+
+# Update page
+update:
+    title: Edit Organization
+    redirect: luketowers/flashalertnet/organizations
+    redirectClose: luketowers/flashalertnet/organizations
+
+# Preview page
+preview:
+    title: Preview Organization

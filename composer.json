@@ -1,0 +1,19 @@
+{
+    "name": "luketowers/oc-flashalertnet-plugin",
+    "type": "october-plugin",
+    "description": "OctoberCMS plugin to pull data from FlashAlert.net",
+    "homepage": "https://github.com/LukeTowers/oc-flashalertnet-plugin",
+    "keywords": ["october", "octobercms", "rss", "flashalert", "flash", "alert"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Towers",
+            "email": "octobercms@luketowers.ca"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0",
+
+        "dg/rss-php": "~1.3"
+    }
+}

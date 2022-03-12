@@ -1,0 +1,33 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    title:
+        label: Title
+        searchable: true
+    type:
+        label: Type
+        searchable: true
+    org_name:
+        label: Organization
+        relation: organization
+        select: name
+    guid:
+        label: GUID
+        searchable: true
+    content:
+        label: Content
+        searchable: true
+        invisible: true
+    created_at:
+        label: Created At
+        type: datetime
+        invisible: true
+    updated_at:
+        label: Updated At
+        type: datetime
+        invisible: true
+    published_at:
+        label: Published At
+        type: datetime

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Alert
+
+# Model Form Field configuration
+form: $/luketowers/flashalertnet/models/alert/fields.yaml
+
+# Model Class name
+modelClass: LukeTowers\FlashAlertNet\Models\Alert
+
+# Default redirect location
+defaultRedirect: luketowers/flashalertnet/alerts
+
+# Create page
+create:
+    title: Create Alert
+    redirect: luketowers/flashalertnet/alerts/update/:id
+    redirectClose: luketowers/flashalertnet/alerts
+
+# Update page
+update:
+    title: Edit Alert
+    redirect: luketowers/flashalertnet/alerts
+    redirectClose: luketowers/flashalertnet/alerts
+
+# Preview page
+preview:
+    title: Preview Alert
